@@ -9,9 +9,8 @@ import Link from "next/link";
 export const NavbarDefault = () => {
   const [flyer, setFlyer] = useState(false);
   const [flyerTwo, setFlyerTwo] = useState(false);
-  const screenWidth  = window.screen.width;
+
   const [isExpanded, toggleExpansion] = useState(false);
-  console.log(screenWidth)
 
   return (
     <nav className="lg:mb-20 flex items-center justify-between flex-wrap  p-6">
