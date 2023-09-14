@@ -6,7 +6,7 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div id="services" className=" md:mb-[20rem] mb-[60rem]  flex lg:flex-row flex-col justify-center   h-[600px]">
+    <div id="services" className=" md:mb-[20rem] mb-[20rem]  flex lg:flex-row flex-col justify-center   h-[600px]">
       <div className="lg:w-[50%] lg:pr-[10%] lg:mt-10 mt-10 lg:ml-[10%] flex flex-col lg:p-0 p-0 ">
         <div className="text-center text-white text-xl font-regular lg:text-left">
           Our Services
@@ -31,11 +31,11 @@ const Services = () => {
         </div>
       </div>
       <div className="mt-10 lg:pl-[5%] lg:w-[50%] h-[100%] flex-row items-center justify-center  lg:justify-start lg:p-0 ">
-        <div className="flex flex-col md:flex-row items-center md:items-start   md:w-[100%] h-max justify-center lg:justify-start">
-          <div className=" border-[0.2px] rounded-3xl border-gray-600 flex flex-col w-fit justify-center items-center p-10 md:mr-5">
+        <div className="flex flex-row md:flex-row items-center md:items-start   md:w-[100%] h-max justify-center lg:justify-start p-5">
+          <div className=" border-[0.2px] rounded-3xl border-gray-600 flex flex-col w-[50%] justify-center items-center p-10 mr-5">
             <svg
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,10 +65,10 @@ const Services = () => {
             </svg>
             <p className="text-white mt-6">Customization</p>
           </div>
-          <div className=" border-[0.2px] rounded-3xl mt-5 md:mt-0 border-gray-600 flex w-fit flex-col justify-center items-center p-10">
+          <div className=" border-[0.2px] rounded-3xl  md:mt-0 border-gray-600 flex w-[50%] flex-col justify-center items-center p-10">
             <svg
-              width="100"
-              height="100"
+              width="80"
+              height="80"
               viewBox="0 0 100 100"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
@@ -102,12 +102,12 @@ const Services = () => {
               </defs>
             </svg>
 
-            <p className="text-white mt-6">Engaging UI/UX</p>
+            <p className="text-white mt-6">Scalability</p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center md:items-start  mt-5 md:w-[100%] h-max  justify-center lg:justify-start">
-          <div className="border-[0.2px] rounded-3xl border-gray-600 w-fit flex flex-col justify-center items-center p-10 md:mr-5">
-          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div className="flex flex-row md:flex-row items-center md:items-start  mt-5 md:w-[100%] h-max  justify-center lg:justify-start p-5">
+          <div className="border-[0.2px] rounded-3xl border-gray-600 w-[50%] flex flex-col justify-center items-center p-10 mr-5 ">
+          <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="50" cy="50" r="50" fill="#8EEA77"/>
           <path d="M50 62.25L62.25 50L67.5 55.25L55.25 67.5L50 62.25Z" stroke="#0B0F15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           <path d="M60.5 51.75L57.875 38.625L32.5 32.5L38.625 57.875L51.75 60.5L60.5 51.75Z" stroke="#0B0F15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
@@ -115,12 +115,14 @@ const Services = () => {
           <path d="M48.25 51.75C50.183 51.75 51.75 50.183 51.75 48.25C51.75 46.317 50.183 44.75 48.25 44.75C46.317 44.75 44.75 46.317 44.75 48.25C44.75 50.183 46.317 51.75 48.25 51.75Z" stroke="#0B0F15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
           
-<p className="text-white mt-6">Scalability</p>
+<p className="text-white mt-6">Engaging</p>
+<p className="text-white ">UI/UX</p>
+
             
 
           </div>
-          <div className="  border-[0.2px] rounded-3xl mt-5 md:mt-0 border-gray-600 w-fit  flex flex-col justify-center items-center p-10">
-          <svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <div className="  border-[0.2px] rounded-3xl  border-gray-600 w-[50%]  flex flex-col justify-center items-center p-10">
+          <svg width="80" height="80" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="50" cy="50" r="50" fill="#FFB31A"/>
 <path d="M64 41.25H36C34.067 41.25 32.5 42.817 32.5 44.75V64C32.5 65.933 34.067 67.5 36 67.5H64C65.933 67.5 67.5 65.933 67.5 64V44.75C67.5 42.817 65.933 41.25 64 41.25Z" stroke="#0B0F15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 <path d="M58.75 32.5L50 41.25L41.25 32.5" stroke="#0B0F15" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>

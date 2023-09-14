@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Collab = () => {
   return (
-    <div className="flex mb-80 flex-col lg:flex-row w-[100%] h-[100%]">
+    <div className="flex mb-16 flex-col lg:flex-row w-[100%] h-[100%]">
       <div className="flex flex-col p-5 lg:w-[50%] lg:p-20 lg:ml-[10%] lg:mb-0 mb-20">
         <h1 className="lg:text-left  mt-1 lg:mt-5 text-white text-3xl md:text-5xl font-semibold">
           Interesting 
