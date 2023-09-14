@@ -9,8 +9,9 @@ import Link from "next/link";
 export const NavbarDefault = () => {
   const [flyer, setFlyer] = useState(false);
   const [flyerTwo, setFlyerTwo] = useState(false);
-
+  const screenWidth  = window.screen.width;
   const [isExpanded, toggleExpansion] = useState(false);
+  console.log(screenWidth)
 
   return (
     <nav className="lg:mb-20 flex items-center justify-between flex-wrap  p-6">
@@ -70,7 +71,7 @@ export const NavbarDefault = () => {
 
         <Fade>
         <Link href={"/contact"}>
-         <button className="lg:hidden border-2  hover:bg-white  hover:text-black border-white text-white text-sm  font-normal px-10 rounded-3xl py-2 mt-4">
+         <button className=" lg:hidden border-2  hover:bg-white  hover:text-black border-white text-white text-sm  font-normal px-10 rounded-3xl py-2 mt-4">
             Contact Us
           </button>
         
@@ -78,17 +79,12 @@ export const NavbarDefault = () => {
          
         </Fade>
       </div>
-      <Fade>
-       
-      <Link href={"/contact"} className="hidden lg:inline" >
-      <button className="hidden lg:inline border-2  hover:bg-white mr-5 hover:text-black border-white text-sm text-white  font-normal px-10 rounded-3xl py-2 ">
-          Contact Us
-        </button>
-
-      </Link>
-
-       
-      </Fade>
+      <Link href="/contact" className="lg:inline hidden"> <button className="  border-2 lg:mr-5  hover:bg-white  hover:text-black border-white text-white text-sm  font-normal px-10 rounded-3xl py-2 mt-4">
+      
+      Contact Us
+      </button></Link>
+     
+      
     </nav>
   );
 };
