@@ -3,7 +3,7 @@
 import { useState } from "react";
 import logo from "../assets/logo.svg";
 import Image from "next/image";
-import { Fade } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 import Link from "next/link";
 
 export const NavbarDefault = () => {

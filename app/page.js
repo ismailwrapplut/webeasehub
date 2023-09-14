@@ -4,14 +4,14 @@ import About from "@/components/About";
 import Collab from "@/components/Collab";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
-import  { NavbarDefault } from "@/components/Navbar";
+
 import Portfolio from "@/components/Portfolio";
 import Services from "@/components/Services";
-import { Fade } from "react-reveal";
+import {  Fade } from "react-awesome-reveal";
 
  
 export default function Home() {
-  return<><Fade bottom>
+  return<><Fade delay={500}>
   <Hero/>
   <About/>
   <Services/>
