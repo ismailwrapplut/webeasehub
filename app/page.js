@@ -11,7 +11,7 @@ import {  Fade } from "react-awesome-reveal";
 
  
 export default function Home() {
-  return<><Fade delay={500}>
+  return<><Fade delay={100}>
   <Hero/>
   <About/>
   <Services/>
